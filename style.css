@@ -1,0 +1,49 @@
+body {
+    background-color: darkturquoise;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo {
+    height: 425px;
+    width: 225px;
+    padding: 40px;
+    border-radius: 4px;
+}
+
+.conteudo:nth-child(1) {
+    background: lightyellow;
+    border-top-left-radius: 7px;
+    text-align: center;
+    border-radius: 0px 7px 7px 0px;
+}
+
+.conteudo:nth-child(2) {
+    background: linen;
+    border-radius: 0px 7px 7px 0px;
+}
+
+.conteudo:nth-child(3) {
+    background: burlywood;
+    border-top-right-radius: 7px;
+    border-radius: 0px 7px 7px 0px;
+}
+
+.container_container_info {
+    text-align: center;
+}
+
+.container_info {
+    font-family: sans-serif;
+    display: block;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
